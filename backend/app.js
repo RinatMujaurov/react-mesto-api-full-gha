@@ -27,10 +27,17 @@ mongoose
 
 const app = express();
 
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Server is about to crash');
+  }, 0);
+});
+
+app.use(cors());
 app.use(cookieParser());
 app.use(express.json());
 app.use(helmet());
-app.use(cors());
+
 
 app.use(requestLogger);
 app.post('/signin', loginValidation, login);

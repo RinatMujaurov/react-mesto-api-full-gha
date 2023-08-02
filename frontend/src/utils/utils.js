@@ -7,8 +7,7 @@ export const options = {
   errorClass: "popup__input-error_active",
 };
 
-export const apiBaseUrl = "https://mesto.nomoreparties.co/v1/cohort-63";
-export const apiToken = "cab53664-e4e9-4b11-babc-f697c128a306";
+export const apiBaseUrl = "https://api.mestorinat.nomoreparties.co";
 
 // переменные
 export const selector = ".elements";
