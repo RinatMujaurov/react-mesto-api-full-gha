@@ -1,0 +1,10 @@
+.register__link {
+	margin-left: 3px;
+	text-decoration: none;
+	color: white;
+	transition: opacity 1s linear;
+}
+
+.register__link:hover {
+	opacity: .6;
+}

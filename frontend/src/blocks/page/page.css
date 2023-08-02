@@ -1,0 +1,16 @@
+.page {
+	margin: 0 auto;
+	max-width: 880px;
+	width: 100%;
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #fff;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+

@@ -1,0 +1,8 @@
+.profile__block {
+	margin: 0;
+	padding: 0;
+	margin-left: 30px;
+  margin-bottom: 10px;
+	display: flex;
+  align-self: center;
+}

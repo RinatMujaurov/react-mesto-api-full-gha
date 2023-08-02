@@ -1,0 +1,32 @@
+.header {
+	margin-top: 45px;
+	padding-bottom: 41px;
+	border-bottom: 1px solid #545454;
+	max-width: 880px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 899px) {
+	.header {
+		margin: 0 auto;
+		margin-top: 28px;
+		width: 100%;
+		justify-content: space-around;
+	   align-items: center;
+	}
+}
+
+@media (max-width: 679px) {
+	.header {
+		margin: 0 auto;
+		margin-top: 50px;
+		padding-bottom: 31px;
+		padding-top: 31px;
+		border-top: 1px solid #545454;
+		max-width: 320px;
+		justify-content: space-around;
+		position: relative;
+	}
+}

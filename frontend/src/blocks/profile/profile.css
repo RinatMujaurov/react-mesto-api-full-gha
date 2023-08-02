@@ -1,0 +1,16 @@
+.profile {
+	margin: 40px auto 50px;
+	min-height: 120px;
+	display: grid;
+	grid-template-columns: 120px auto 150px;
+}
+
+@media (max-width: 679px) {
+	.profile {
+		 margin-top: 42px;
+		 margin-bottom: 36px;
+		 grid-template-columns: 282px;
+		 justify-items: center;
+		 
+	}
+}
