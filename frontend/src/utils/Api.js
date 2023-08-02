@@ -115,7 +115,7 @@ class Api {
 }
 
 const api = new Api(
-  "http://localhost:3000",
+  "https://api.mestorinat.nomoreparties.co",
 );
 
 export default api;
