@@ -38,7 +38,6 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(helmet());
 
-
 app.use(requestLogger);
 app.post('/signin', loginValidation, login);
 app.post('/signup', createUserValidation, createUser);

@@ -15,15 +15,15 @@ function Header({ isLoggedIn, email, onSignOut }) {
   };
 
   const renderHeaderText = () => {
-    if (location.pathname === "/sign-up") {
+    if (location.pathname === "/signup") {
       return (
-        <Link to="/sign-in" className="header__link">
+        <Link to="/signin" className="header__link">
           Вход
         </Link>
       );
-    } else if (location.pathname === "/sign-in") {
+    } else if (location.pathname === "/signin") {
       return (
-        <Link to="/sign-up" className="header__link">
+        <Link to="/signup" className="header__link">
           Регистрация
         </Link>
       );
@@ -31,7 +31,7 @@ function Header({ isLoggedIn, email, onSignOut }) {
       return (
         <div className="header__nav">
           {email}
-          <Link className="header__link" to={"/sign-in"} onClick={onSignOut}>
+          <Link className="header__link" to={"/signin"} onClick={onSignOut}>
             Выйти
           </Link>
         </div>

@@ -3,7 +3,7 @@ import PopupWithForm from "./PopupWithForm";
 import useFormAndValidation from "../hooks/useFormAndValidation";
 
 function AddPlacePopup(props) {
-  const { values, handleChange, errors, isValid, setValues, resetForm } = useFormAndValidation();
+  const { values, handleChange, errors, isValid, resetForm } = useFormAndValidation();
 
   function handleSubmit(e) {
     e.preventDefault();
